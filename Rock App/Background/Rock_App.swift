@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Rock_AppApp: App {
+struct Rock_App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GretingsShow()
         }
     }
 }

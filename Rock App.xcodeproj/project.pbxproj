@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5538C2972A00A63E0003E948 /* Rock_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2962A00A63E0003E948 /* Rock_AppApp.swift */; };
+		5538C2972A00A63E0003E948 /* Rock_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2962A00A63E0003E948 /* Rock_App.swift */; };
 		5538C2992A00A63E0003E948 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2982A00A63E0003E948 /* ContentView.swift */; };
 		5538C29B2A00A6400003E948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5538C29A2A00A6400003E948 /* Assets.xcassets */; };
 		5538C29E2A00A6400003E948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5538C29D2A00A6400003E948 /* Preview Assets.xcassets */; };
+		5538C2A92A00B4700003E948 /* FoundRocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2A82A00B4700003E948 /* FoundRocks.swift */; };
+		5538C2AB2A00B8870003E948 /* GuidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2AA2A00B8870003E948 /* GuidView.swift */; };
+		5538C2AD2A00B8AA0003E948 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5538C2AC2A00B8AA0003E948 /* HomeView.swift */; };
+		55623AFE2A01A2310078472E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623AFD2A01A2310078472E /* HomeScreen.swift */; };
+		55623B002A01A2610078472E /* MyRocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623AFF2A01A2610078472E /* MyRocks.swift */; };
+		55623B022A01A29C0078472E /* FavoiteRocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B012A01A29C0078472E /* FavoiteRocks.swift */; };
+		55623B042A01A2C90078472E /* TPRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B032A01A2C90078472E /* TPRTC.swift */; };
+		55623B082A01AD270078472E /* gretings-show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B072A01AD270078472E /* gretings-show.swift */; };
+		55623B0A2A01D15D0078472E /* SubmitRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B092A01D15D0078472E /* SubmitRock.swift */; };
+		55623B0D2A01D8770078472E /* TakePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B0C2A01D8770078472E /* TakePictureView.swift */; };
+		55623B102A01E7A50078472E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B0F2A01E7A50078472E /* ImagePicker.swift */; };
+		55623B132A020E870078472E /* UScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B122A020E870078472E /* UScanner.swift */; };
+		55623B152A0221C00078472E /* namesColection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B142A0221C00078472E /* namesColection.swift */; };
+		55623B1B2A02DBAA0078472E /* ChatManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B1A2A02DBAA0078472E /* ChatManeger.swift */; };
+		55623B1D2A02DBDB0078472E /* RockGptInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B1C2A02DBDB0078472E /* RockGptInterface.swift */; };
+		55623B1F2A02DD4E0078472E /* RockGptModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B1E2A02DD4E0078472E /* RockGptModel.swift */; };
+		55623B212A02E11E0078472E /* CallGeologist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55623B202A02E11E0078472E /* CallGeologist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5538C2932A00A63E0003E948 /* Rock App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rock App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5538C2962A00A63E0003E948 /* Rock_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_AppApp.swift; sourceTree = "<group>"; };
+		5538C2962A00A63E0003E948 /* Rock_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rock_App.swift; sourceTree = "<group>"; };
 		5538C2982A00A63E0003E948 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5538C29A2A00A6400003E948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5538C29D2A00A6400003E948 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5538C2A82A00B4700003E948 /* FoundRocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundRocks.swift; sourceTree = "<group>"; };
+		5538C2AA2A00B8870003E948 /* GuidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidView.swift; sourceTree = "<group>"; };
+		5538C2AC2A00B8AA0003E948 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		55623AFD2A01A2310078472E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		55623AFF2A01A2610078472E /* MyRocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRocks.swift; sourceTree = "<group>"; };
+		55623B012A01A29C0078472E /* FavoiteRocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoiteRocks.swift; sourceTree = "<group>"; };
+		55623B032A01A2C90078472E /* TPRTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPRTC.swift; sourceTree = "<group>"; };
+		55623B072A01AD270078472E /* gretings-show.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gretings-show.swift"; sourceTree = "<group>"; };
+		55623B092A01D15D0078472E /* SubmitRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitRock.swift; sourceTree = "<group>"; };
+		55623B0C2A01D8770078472E /* TakePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePictureView.swift; sourceTree = "<group>"; };
+		55623B0F2A01E7A50078472E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		55623B122A020E870078472E /* UScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UScanner.swift; sourceTree = "<group>"; };
+		55623B142A0221C00078472E /* namesColection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = namesColection.swift; sourceTree = "<group>"; };
+		55623B1A2A02DBAA0078472E /* ChatManeger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManeger.swift; sourceTree = "<group>"; };
+		55623B1C2A02DBDB0078472E /* RockGptInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockGptInterface.swift; sourceTree = "<group>"; };
+		55623B1E2A02DD4E0078472E /* RockGptModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockGptModel.swift; sourceTree = "<group>"; };
+		55623B202A02E11E0078472E /* CallGeologist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallGeologist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +85,13 @@
 		5538C2952A00A63E0003E948 /* Rock App */ = {
 			isa = PBXGroup;
 			children = (
-				5538C2962A00A63E0003E948 /* Rock_AppApp.swift */,
-				5538C2982A00A63E0003E948 /* ContentView.swift */,
+				55623B172A02DA4B0078472E /* Background */,
+				55623B0E2A01E7160078472E /* TakeImage */,
+				55623B0B2A01D4460078472E /* JSON Data */,
+				55623AFC2A01A1AD0078472E /* HomeView */,
+				55623B062A01A4210078472E /* DocRock */,
+				55623B112A020D1E0078472E /* Guid Views */,
+				55623B192A02DB6E0078472E /* Chat */,
 				5538C29A2A00A6400003E948 /* Assets.xcassets */,
 				5538C29C2A00A6400003E948 /* Preview Content */,
 			);
@@ -65,6 +104,74 @@
 				5538C29D2A00A6400003E948 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55623AFC2A01A1AD0078472E /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5538C2A82A00B4700003E948 /* FoundRocks.swift */,
+				5538C2AC2A00B8AA0003E948 /* HomeView.swift */,
+				55623AFD2A01A2310078472E /* HomeScreen.swift */,
+				55623AFF2A01A2610078472E /* MyRocks.swift */,
+				55623B012A01A29C0078472E /* FavoiteRocks.swift */,
+				55623B032A01A2C90078472E /* TPRTC.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		55623B062A01A4210078472E /* DocRock */ = {
+			isa = PBXGroup;
+			children = (
+				55623B092A01D15D0078472E /* SubmitRock.swift */,
+			);
+			path = DocRock;
+			sourceTree = "<group>";
+		};
+		55623B0B2A01D4460078472E /* JSON Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "JSON Data";
+			sourceTree = "<group>";
+		};
+		55623B0E2A01E7160078472E /* TakeImage */ = {
+			isa = PBXGroup;
+			children = (
+				55623B0C2A01D8770078472E /* TakePictureView.swift */,
+				55623B0F2A01E7A50078472E /* ImagePicker.swift */,
+			);
+			path = TakeImage;
+			sourceTree = "<group>";
+		};
+		55623B112A020D1E0078472E /* Guid Views */ = {
+			isa = PBXGroup;
+			children = (
+				5538C2AA2A00B8870003E948 /* GuidView.swift */,
+				55623B122A020E870078472E /* UScanner.swift */,
+				55623B142A0221C00078472E /* namesColection.swift */,
+			);
+			path = "Guid Views";
+			sourceTree = "<group>";
+		};
+		55623B172A02DA4B0078472E /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				55623B072A01AD270078472E /* gretings-show.swift */,
+				5538C2982A00A63E0003E948 /* ContentView.swift */,
+				5538C2962A00A63E0003E948 /* Rock_App.swift */,
+			);
+			path = Background;
+			sourceTree = "<group>";
+		};
+		55623B192A02DB6E0078472E /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				55623B1A2A02DBAA0078472E /* ChatManeger.swift */,
+				55623B1C2A02DBDB0078472E /* RockGptInterface.swift */,
+				55623B1E2A02DD4E0078472E /* RockGptModel.swift */,
+				55623B202A02E11E0078472E /* CallGeologist.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +244,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55623B132A020E870078472E /* UScanner.swift in Sources */,
+				55623B102A01E7A50078472E /* ImagePicker.swift in Sources */,
+				55623B1F2A02DD4E0078472E /* RockGptModel.swift in Sources */,
+				55623B042A01A2C90078472E /* TPRTC.swift in Sources */,
+				55623B0D2A01D8770078472E /* TakePictureView.swift in Sources */,
 				5538C2992A00A63E0003E948 /* ContentView.swift in Sources */,
-				5538C2972A00A63E0003E948 /* Rock_AppApp.swift in Sources */,
+				5538C2AB2A00B8870003E948 /* GuidView.swift in Sources */,
+				55623B1D2A02DBDB0078472E /* RockGptInterface.swift in Sources */,
+				55623B0A2A01D15D0078472E /* SubmitRock.swift in Sources */,
+				55623B002A01A2610078472E /* MyRocks.swift in Sources */,
+				55623B212A02E11E0078472E /* CallGeologist.swift in Sources */,
+				55623B152A0221C00078472E /* namesColection.swift in Sources */,
+				55623AFE2A01A2310078472E /* HomeScreen.swift in Sources */,
+				5538C2A92A00B4700003E948 /* FoundRocks.swift in Sources */,
+				55623B1B2A02DBAA0078472E /* ChatManeger.swift in Sources */,
+				55623B022A01A29C0078472E /* FavoiteRocks.swift in Sources */,
+				55623B082A01AD270078472E /* gretings-show.swift in Sources */,
+				5538C2AD2A00B8AA0003E948 /* HomeView.swift in Sources */,
+				5538C2972A00A63E0003E948 /* Rock_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
